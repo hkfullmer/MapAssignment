@@ -2,21 +2,21 @@
 
 h1 {
   text-align:  left;
-  font-family: Open Sans Condensed, sans-serif;
+  font-family: Montserrat, sans-serif;
   font-weight: 700;
-  font-size: 50px;
+  font-size: 40px;
 }
 
 
 h3 {
-    font-family: Open Sans Condensed, sans-serif;
+    font-family: Montserrat, sans-serif;
     text-align: left;
     font-weight: 300;
     font-size: 22px;
   }
 
 h4{
-  font-family: Open Sans Condensed, sans-serif;
+  font-family: Montserrat, sans-serif;
   text-align: left;
   font-weight: bold;
   font-size: 18px;
@@ -25,16 +25,24 @@ h4{
 
 body {
 padding: 15px;
-font-family: Open Sans, sans-serif;
+font-family: Montserrat, sans-serif;
 font-size: large;
 font-weight: 300;
 }
 
-#image-box {
+#image-box-inline {
+float: left;
+max-width: 50%;
+height: auto;
+padding: 20px;
+background-color: ;
+}
+
+#image-box-top {
 display: block;
 margin-left: auto;
 margin-right: auto;
-max-width: 80%;
+max-width: 70%;
 padding: 10px;
 background-color: ;
 }
@@ -47,28 +55,19 @@ img {
   height: auto;
 }
 
-.chart-box {
+.map-box {
   display: flex;
   flex-direction: space-around;
   height: auto;
   margin-left: auto;
   margin-right: auto;
-  max-width: 85%;
+  width: 85%;
   height: auto;
   padding: 5px;
   background-color: ;
-}
+} 
 
-  .chart-box p {
-    width: auto;
-    font-size: medium;
-    text-align: left;
-    background-color:;
-    font-family: Open Sans, sans-serif;
-    font-weight: 300;
-  }  
-
-.charts {
+.maps {
     padding: 2%;
     margin: 2%;
     background-color: ;
@@ -95,7 +94,7 @@ hr{
 
 #footer {
   background-color: lightgrey;
-  font-family: Open Sans, sans-serif;
+  font-family: Montserrat, sans-serif;
   padding: 5px; 
   font-size: 14px;
 }
